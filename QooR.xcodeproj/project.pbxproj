@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366D58D7A035449A9F4F0043 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4F337FA6E4490BA36FF00A /* libPods.a */; };
 		AA6385FB1705583C004FEB34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6385FA1705583C004FEB34 /* UIKit.framework */; };
 		AA6385FD1705583C004FEB34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6385FC1705583C004FEB34 /* Foundation.framework */; };
 		AA6385FF1705583C004FEB34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6385FE1705583C004FEB34 /* CoreGraphics.framework */; };
@@ -18,9 +19,17 @@
 		AA6386111705583C004FEB34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6386101705583C004FEB34 /* Default-568h@2x.png */; };
 		AA6386141705583C004FEB34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6386121705583C004FEB34 /* MainStoryboard.storyboard */; };
 		AA6386171705583C004FEB34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6386161705583C004FEB34 /* ViewController.m */; };
+		AAC3B03A170574E600614236 /* 25-box.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC3B038170574E600614236 /* 25-box.png */; };
+		AAC3B03B170574E600614236 /* 25-box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC3B039170574E600614236 /* 25-box@2x.png */; };
+		AAC3B040170574FD00614236 /* 01-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC3B03C170574FD00614236 /* 01-magnify.png */; };
+		AAC3B041170574FD00614236 /* 01-magnify@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC3B03D170574FD00614236 /* 01-magnify@2x.png */; };
+		AAC3B042170574FD00614236 /* 03-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC3B03E170574FD00614236 /* 03-heart.png */; };
+		AAC3B043170574FD00614236 /* 03-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC3B03F170574FD00614236 /* 03-heart@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D06FC3B42A54B81857211BA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9C4F337FA6E4490BA36FF00A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6385F71705583C004FEB34 /* QooR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QooR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6385FA1705583C004FEB34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA6385FC1705583C004FEB34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +46,12 @@
 		AA6386131705583C004FEB34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AA6386151705583C004FEB34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AA6386161705583C004FEB34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAC3B038170574E600614236 /* 25-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-box.png"; sourceTree = "<group>"; };
+		AAC3B039170574E600614236 /* 25-box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-box@2x.png"; sourceTree = "<group>"; };
+		AAC3B03C170574FD00614236 /* 01-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-magnify.png"; sourceTree = "<group>"; };
+		AAC3B03D170574FD00614236 /* 01-magnify@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-magnify@2x.png"; sourceTree = "<group>"; };
+		AAC3B03E170574FD00614236 /* 03-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-heart.png"; sourceTree = "<group>"; };
+		AAC3B03F170574FD00614236 /* 03-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03-heart@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 				AA6385FB1705583C004FEB34 /* UIKit.framework in Frameworks */,
 				AA6385FD1705583C004FEB34 /* Foundation.framework in Frameworks */,
 				AA6385FF1705583C004FEB34 /* CoreGraphics.framework in Frameworks */,
+				366D58D7A035449A9F4F0043 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 				AA6386001705583C004FEB34 /* QooR */,
 				AA6385F91705583C004FEB34 /* Frameworks */,
 				AA6385F81705583C004FEB34 /* Products */,
+				7D06FC3B42A54B81857211BA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +93,7 @@
 				AA6385FA1705583C004FEB34 /* UIKit.framework */,
 				AA6385FC1705583C004FEB34 /* Foundation.framework */,
 				AA6385FE1705583C004FEB34 /* CoreGraphics.framework */,
+				9C4F337FA6E4490BA36FF00A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +114,7 @@
 		AA6386011705583C004FEB34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AAC3B0371705742700614236 /* Icons */,
 				AA6386021705583C004FEB34 /* QooR-Info.plist */,
 				AA6386031705583C004FEB34 /* InfoPlist.strings */,
 				AA6386061705583C004FEB34 /* main.m */,
@@ -105,6 +124,20 @@
 				AA6386101705583C004FEB34 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC3B0371705742700614236 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				AAC3B03C170574FD00614236 /* 01-magnify.png */,
+				AAC3B03D170574FD00614236 /* 01-magnify@2x.png */,
+				AAC3B03E170574FD00614236 /* 03-heart.png */,
+				AAC3B03F170574FD00614236 /* 03-heart@2x.png */,
+				AAC3B038170574E600614236 /* 25-box.png */,
+				AAC3B039170574E600614236 /* 25-box@2x.png */,
+			);
+			name = Icons;
+			path = en.lproj/icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +150,7 @@
 				AA6385F31705583C004FEB34 /* Sources */,
 				AA6385F41705583C004FEB34 /* Frameworks */,
 				AA6385F51705583C004FEB34 /* Resources */,
+				68160F206BA445ABA4C46936 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +197,33 @@
 				AA63860F1705583C004FEB34 /* Default@2x.png in Resources */,
 				AA6386111705583C004FEB34 /* Default-568h@2x.png in Resources */,
 				AA6386141705583C004FEB34 /* MainStoryboard.storyboard in Resources */,
+				AAC3B03A170574E600614236 /* 25-box.png in Resources */,
+				AAC3B03B170574E600614236 /* 25-box@2x.png in Resources */,
+				AAC3B040170574FD00614236 /* 01-magnify.png in Resources */,
+				AAC3B041170574FD00614236 /* 01-magnify@2x.png in Resources */,
+				AAC3B042170574FD00614236 /* 03-heart.png in Resources */,
+				AAC3B043170574FD00614236 /* 03-heart@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68160F206BA445ABA4C46936 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA6385F31705583C004FEB34 /* Sources */ = {
@@ -259,6 +316,7 @@
 		};
 		AA63861B1705583C004FEB34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D06FC3B42A54B81857211BA /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QooR/QooR-Prefix.pch";
@@ -270,6 +328,7 @@
 		};
 		AA63861C1705583C004FEB34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D06FC3B42A54B81857211BA /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QooR/QooR-Prefix.pch";
@@ -298,6 +357,7 @@
 				AA63861C1705583C004FEB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
