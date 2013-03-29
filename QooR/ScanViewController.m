@@ -45,7 +45,7 @@
     self.showsZBarControls         = NO;  // Hide ZBar toolbar (Close / Help)
     self.tracksSymbols             = YES;//NO;  // Show greenbox for UPC??
     self.readerView.torchMode      = NO;  // No flash
-    self.wantsFullScreenLayout     = YES;  // Stops ZBar from messing with StatusBar
+    self.wantsFullScreenLayout     = YES;  //NO; Stops ZBar from messing with StatusBar
     self.readerView.zoom           = 1.0; // Don't zoom camera (default is 1.25)
 
 
@@ -89,7 +89,7 @@
     if (symbol.type == ZBAR_QRCODE) {
         NSLog(@"QRCode: %@", symbol.data);
     } else {
-        // probably barcoe
+        // probably barcode
         NSLog(@"Bar Code: %@", symbol.data);
     }
 
